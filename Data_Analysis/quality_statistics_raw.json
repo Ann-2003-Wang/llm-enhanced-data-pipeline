@@ -1,0 +1,22 @@
+{
+  "summary": {
+    "total_papers": 7397,
+    "avg_completeness_score": 0.665,
+    "avg_recency_score": 0.710,
+    "avg_content_quality": 0.288,
+    "avg_technical_depth": 0.286,
+    "overall_score": 0.487
+  },
+  "distribution": {
+    "excellent": 1024,
+    "high": 1386,
+    "good": 1815,
+    "medium": 1624,
+    "fair": 1153,
+    "low": 395
+  },
+  "correlations": {
+    "score_vs_length": 0.46,
+    "score_vs_recency": 0.095
+  }
+}

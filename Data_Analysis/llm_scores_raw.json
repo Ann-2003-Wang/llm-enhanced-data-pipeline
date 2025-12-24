@@ -1,0 +1,12 @@
+{
+  "dataset": "Raw",
+  "scores": {
+    "metadata_completeness": 2.63,
+    "text_cleanliness": 2.81,
+    "technical_specificity": 2.37,
+    "domain_relevance": 4.46,
+    "semantic_clarity": 2.99,
+    "downstream_usability": 2.34,
+    "overall_score": 2.93
+  }
+}

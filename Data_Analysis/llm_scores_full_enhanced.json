@@ -1,0 +1,12 @@
+{
+  "dataset": "Enhanced",
+  "scores": {
+    "metadata_completeness": 4.37,
+    "text_cleanliness": 4.10,
+    "technical_specificity": 3.54,
+    "domain_relevance": 4.56,
+    "semantic_clarity": 3.86,
+    "downstream_usability": 3.89,
+    "overall_score": 4.05
+  }
+}

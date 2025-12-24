@@ -1,0 +1,12 @@
+{
+  "dataset": "Cleaned",
+  "scores": {
+    "metadata_completeness": 3.88,
+    "text_cleanliness": 3.87,
+    "technical_specificity": 2.40,
+    "domain_relevance": 4.42,
+    "semantic_clarity": 2.98,
+    "downstream_usability": 2.94,
+    "overall_score": 3.42
+  }
+}

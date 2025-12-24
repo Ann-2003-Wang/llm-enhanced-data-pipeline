@@ -1,0 +1,106 @@
+{
+  "report_metadata": {
+    "generation_date": "2025-12-22T22:47:50.984445",
+    "data_files_analyzed": [
+      "raw",
+      "cleaned",
+      "scored",
+      "full"
+    ],
+    "total_papers_processed": 69972
+  },
+  "executive_summary": {
+    "overall_status": "complete",
+    "key_findings": [
+      "Cleaning stage removed 5876 papers (26.8% of original dataset)",
+      "Full processing pipeline retained 73.2% of original papers",
+      "3 papers have data quality issues",
+      "7 papers have high privacy risk (require manual review)"
+    ],
+    "recommendations": [
+      "Perform manual review and correction for papers with quality issues",
+      "Conduct further review and anonymization for high privacy risk papers",
+      "Regularly update data sources to ensure timeliness",
+      "Consider adding more quality assessment dimensions",
+      "Establish automated monitoring and alerting mechanisms"
+    ]
+  },
+  "ablation_study_results": {
+    "cleaning_impact": {
+      "papers_removed": 5876,
+      "removal_rate": 26.831050228310506,
+      "avg_abstract_length_change": -13.90211607246647,
+      "avg_title_length_change": 0.1779177808629555
+    },
+    "scoring_impact": {
+      "quality_distribution": {
+        "mean": 0.710949388417374,
+        "median": 0.72,
+        "std": 0.10072011063385633,
+        "min": 0.101,
+        "max": 0.983
+      },
+      "quality_score_added": true
+    },
+    "full_pipeline_impact": {
+      "total_papers_removed": 5876,
+      "final_paper_count": 16024,
+      "processing_efficiency": 73.1689497716895
+    }
+  },
+  "error_analysis_results": {
+    "quality_issues": {
+      "total_issues": 3,
+      "issue_distribution": {
+        "title_too_short": 3
+      },
+      "papers_with_issues": 3
+    },
+    "privacy_risks": {
+      "distribution": {
+        "low": 16017,
+        "high": 4,
+        "critical": 3
+      },
+      "high_risk_papers": 7
+    },
+    "score_analysis": {
+      "outlier_count": 88,
+      "outlier_percentage": 0.5491762356465303,
+      "outlier_range": [
+        0.101,
+        0.437
+      ]
+    }
+  },
+  "stage_comparison_results": {
+    "raw": {
+      "count": 21900,
+      "avg_title_length": 83.32095890410959,
+      "avg_abstract_length": 1335.1358904109588,
+      "avg_author_count": 5.215981735159818
+    },
+    "cleaned": {
+      "count": 16024,
+      "avg_title_length": 83.49887668497254,
+      "avg_abstract_length": 1321.2337743384924,
+      "avg_author_count": 5.3282576135796305,
+      "avg_quality_score": 0.8902981465302048
+    },
+    "scored": {
+      "count": 16024,
+      "avg_title_length": 83.49887668497254,
+      "avg_abstract_length": 1321.2337743384924,
+      "avg_author_count": 5.3282576135796305,
+      "avg_quality_score": 0.710949388417374
+    },
+    "full": {
+      "count": 16024,
+      "avg_title_length": 83.49887668497254,
+      "avg_abstract_length": 1321.2337743384924,
+      "avg_author_count": 5.3282576135796305,
+      "avg_quality_score": 0.710949388417374
+    }
+  },
+  "detailed_analysis": {}
+}

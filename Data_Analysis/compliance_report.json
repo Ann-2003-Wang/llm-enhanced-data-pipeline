@@ -1,0 +1,51 @@
+{
+  "summary": {
+    "total_papers": 16024,
+    "analysis_date": "2025-12-22T22:44:59.574302",
+    "compliance_status": "needs_review"
+  },
+  "privacy_analysis": {
+    "distribution": {
+      "critical": 3,
+      "high": 4,
+      "medium": 0,
+      "low": 16017,
+      "none": 0
+    },
+    "percentages": {
+      "critical": 0.01872191712431353,
+      "high": 0.024962556165751375,
+      "medium": 0.0,
+      "low": 99.95631552670994,
+      "none": 0.0
+    },
+    "highest_risk": "low",
+    "recommendation": "review_high_risk_papers"
+  },
+  "quality_analysis": {
+    "distribution": {
+      "high": 3,
+      "medium": 0,
+      "low": 3,
+      "none": 16018
+    },
+    "percentages": {
+      "high": 0.01872191712431353,
+      "medium": 0.0,
+      "low": 0.01872191712431353,
+      "none": 99.96255616575137
+    },
+    "most_common_issue": "incomplete_data",
+    "recommendation": "review_low_quality_papers"
+  },
+  "licensing_summary": {
+    "all_arxiv": true,
+    "consistent_license": true,
+    "attribution_required": true
+  },
+  "recommendations": [
+    "Ensure proper attribution when using this data",
+    "Review papers with high PII risk before public use",
+    "Consider additional cleaning for low-quality papers"
+  ]
+}
