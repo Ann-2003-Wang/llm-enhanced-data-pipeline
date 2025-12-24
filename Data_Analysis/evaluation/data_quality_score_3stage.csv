@@ -1,0 +1,4 @@
+Stage,Num_Papers,Avg_Novelty_Score,Avg_Technical_Depth,Avg_Clarity_Score,Avg_Impact_Potential,Avg_Overall_Score,Confidence
+Raw (Merged),7397,5.21/10,5.68/10,6.94/10,5.89/10,5.93/10,0.742
+Cleaned & Aligned,6242,5.47/10,5.91/10,7.56/10,6.32/10,6.28/10,0.801
+Enhanced & Filtered,3236,5.93/10,6.33/10,8.02/10,6.96/10,6.81/10,0.851

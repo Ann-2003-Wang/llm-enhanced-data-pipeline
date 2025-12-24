@@ -1,0 +1,66 @@
+Raw Dataset Scoring Terminal Output:
+2025-12-21 12:03:09,612 - INFO - Saved 7397 papers to papers_scored_raw.jsonl
+2025-12-21 12:03:09,613 - INFO - Successfully scored: 7397
+2025-12-21 12:03:09,613 - INFO - Failed: 0
+2025-12-21 12:03:09,622 - INFO - Average scores (successful papers only):
+2025-12-21 12:03:09,622 - INFO -   metadata_completeness: 2.63
+2025-12-21 12:03:09,623 - INFO -   text_cleanliness: 2.81
+2025-12-21 12:03:09,623 - INFO -   technical_specificity: 2.37
+2025-12-21 12:03:09,623 - INFO -   domain_relevance: 4.46
+2025-12-21 12:03:09,624 - INFO -   semantic_clarity: 2.99
+2025-12-21 12:03:09,624 - INFO -   downstream_usability: 2.34
+2025-12-21 12:03:09,624 - INFO -   overall_score: 2.93/5.00
+2025-12-21 12:03:09,625 - INFO - ============================================================
+2025-12-21 12:03:09,625 - INFO - PROCESSING COMPLETE
+2025-12-21 12:03:09,625 - INFO - ============================================================
+2025-12-21 12:03:09,626 - INFO - Total papers: 7397
+2025-12-21 12:03:09,626 - INFO - Total time: 6073.7s (101.2min)
+2025-12-21 12:03:09,626 - INFO - Processing rate: 1.22 papers/sec
+2025-12-21 12:03:09,626 - INFO - ============================================================
+
+
+
+Cleaned Dataset Scoring Terminal Output:
+Scoring papers: 100%|██████████| 6242/6242 [1:18:17<00:00,  1.33paper/s]
+2025-12-21 01:09:58,980 - INFO - Saved 6242 papers to papers_scored.jsonl
+2025-12-21 01:09:58,981 - INFO - Successfully scored: 6242
+2025-12-21 01:09:58,981 - INFO - Failed: 0
+2025-12-21 01:09:58,993 - INFO - Average scores (successful papers only):
+2025-12-21 01:09:58,994 - INFO -   metadata_completeness: 3.88
+2025-12-21 01:09:58,995 - INFO -   text_cleanliness: 3.87
+2025-12-21 01:09:58,995 - INFO -   technical_specificity: 2.40
+2025-12-21 01:09:58,995 - INFO -   domain_relevance: 4.42
+2025-12-21 01:09:58,995 - INFO -   semantic_clarity: 2.98
+2025-12-21 01:09:58,997 - INFO -   downstream_usability: 2.94
+2025-12-21 01:09:58,997 - INFO -   overall_score: 3.42
+2025-12-21 01:09:58,998 - INFO - ============================================================
+2025-12-21 01:09:58,998 - INFO - PROCESSING COMPLETE
+2025-12-21 01:09:58,999 - INFO - ============================================================
+2025-12-21 01:09:58,999 - INFO - Total papers: 6242
+2025-12-21 01:09:59,000 - INFO - Total time: 4697.9s (78.3min)
+2025-12-21 01:09:59,000 - INFO - Processing rate: 1.33 papers/sec
+2025-12-21 01:09:59,001 - INFO - ============================================================
+
+
+
+
+Full Enhanced Dataset Scoring Terminal Output:
+Scoring papers: 100%|██████████| 3236/3236 [40:35<00:00,  1.33paper/s]
+2025-12-21 02:18:06,239 - INFO - Saved 3236 papers to papers_scored_enhanced.jsonl
+2025-12-21 02:18:06,240 - INFO - Successfully scored: 3236
+2025-12-21 02:18:06,240 - INFO - Failed: 0
+2025-12-21 02:18:06,245 - INFO - Average scores (successful papers only):
+2025-12-21 02:18:06,246 - INFO -   metadata_completeness: 4.37
+2025-12-21 02:18:06,247 - INFO -   text_cleanliness: 4.10
+2025-12-21 02:18:06,247 - INFO -   technical_specificity: 3.54
+2025-12-21 02:18:06,247 - INFO -   domain_relevance: 4.56
+2025-12-21 02:18:06,248 - INFO -   semantic_clarity: 3.86
+2025-12-21 02:18:06,248 - INFO -   downstream_usability: 3.89
+2025-12-21 02:18:06,248 - INFO -   overall_score: 4.05
+2025-12-21 02:18:06,248 - INFO - ============================================================
+2025-12-21 02:18:06,250 - INFO - PROCESSING COMPLETE
+2025-12-21 02:18:06,250 - INFO - ============================================================
+2025-12-21 02:18:06,251 - INFO - Total papers: 3236
+2025-12-21 02:18:06,251 - INFO - Total time: 2435.4s (40.6min)
+2025-12-21 02:18:06,251 - INFO - Processing rate: 1.33 papers/sec
+2025-12-21 02:18:06,252 - INFO - ============================================================

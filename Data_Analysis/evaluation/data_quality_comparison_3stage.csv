@@ -1,0 +1,4 @@
+stage,num_papers,has_abstract_%,has_authors_%,has_fields_%,has_keywords_%,avg_abstract_length,avg_title_length,schema_completeness_%,avg_overall_score
+Raw (Merged),7397,53.98,98.4,82.59,0,1220.41,68.47,38.57,4.68
+Cleaned & Aligned,6242,96.23,98.59,79.86,0,1237.22,69.65,35.12,4.67
+Enhanced & Filtered,3236,100,99.78,100,100,1241.5,74.94,99.78,6.81
